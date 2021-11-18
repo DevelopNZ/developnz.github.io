@@ -8,7 +8,7 @@
   <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900,700italic|Open+Sans:700italic,400,600,300,700,800" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div id="wrapper">
+  <div id="wrapper" class="mk-ch">
     <div class="main">
       <div class="header">
         <div class="logo">
