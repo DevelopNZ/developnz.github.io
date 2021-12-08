@@ -19,7 +19,7 @@
       </div>
       <div class="content">
         <div class="information">
-          <a href="https://join.slack.com/t/developnz/shared_invite/zt-yfh4ly10-qENruFBo_CH9i0Uh4yk86g">[click me for happiness 👀]</a>
+          <a href="https://join.slack.com/t/developnz/shared_invite/zt-zwcbs72b-1OJKZI832kiWvRU7LZ5KVA">[click me for happiness 👀]</a>
         </div>
       </div>
     </div>
