@@ -1,13 +1,12 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 2px;
   font-family: 'Open Sans', sans-serif;
   /* Photo by Caleb Shong on Unsplash */
   background: #fff url(background.jpg) center top no-repeat;
   background-size: cover;
   height: 100%;
-  width: 100%;
 }
 
 .logo {
@@ -15,20 +14,10 @@ body {
   /* padding-top: 20px; */
 }
 
-#logo {
-  width: 10%;
-}
-
 #wrapper {
-  max-width: 100%;
-  width: 940px;
   margin: 0 auto;
-}
-
-.main {
-  max-width: 100%;
-  width: 940px;
-  float: left;
+  height: 100%;
+  width: 100%;
 }
 
 .header,
@@ -39,10 +28,8 @@ body {
   float: left;
 }
 
-
-
 .header {
-  margin-top: 160px;
+  margin-top: 70px;
   margin-bottom: 40px;
 }
 
@@ -57,7 +44,7 @@ h1 {
 }
 
 
-h1 strong {
+.header h1  {
   font-size: 38px;
   font-weight: 700;
 }
@@ -69,6 +56,13 @@ h2 {
   color: #ffffff;
 }
 
+a h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
 h2 strong {
   font-weight: 700;
   font-style: italic;
@@ -76,10 +70,22 @@ h2 strong {
 
 
 .information {
-  width: 480px;
   padding-top: 15px;
   margin: 0 auto;
   text-align: center;
+}
+
+.button {
+  background-color: #dced66;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 22px;
+  box-shadow: 5px 5px black;
 }
 
 h3 {
@@ -90,17 +96,20 @@ h3 {
 
 .information p {
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   display: block;
 }
 
 .information a {
   text-align: center;
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   text-decoration: none;
 }
 
+.information a h2 {
+  color: black;
+}
 
 a {
   color: #FFF;
